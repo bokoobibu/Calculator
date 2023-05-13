@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="style.css"> <!-- Подключение внешнего файла стилей -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Калькулятор</title>
+    </head>
+    <body>
+      <div class="calculator">
+        <div class="display">
+          <div id="operation"></div> <!-- Элемент для отображения текущего выражения -->
+          <input type="text" id="result" readonly> <!-- Поле для отображения результата -->
+        </div>
+        <div class="buttons">
+          <button class="operator" id="clear-all">AC</button> <!-- Кнопка для очистки всего -->
+          <button class="number" id="sign">+/-</button> <!-- Кнопка для смены знака числа -->
+          <button class="operator" id="percent">%</button> <!-- Кнопка для вычисления процента -->
+          <button class="operator orange" id="clear">C</button> <!-- Кнопка для очистки последнего символа -->
+          <button class="number" id="7">7</button> <!-- Кнопка для ввода числа 7 -->
+          <button class="number" id="8">8</button> <!-- Кнопка для ввода числа 8 -->
+          <button class="number" id="9">9</button> <!-- Кнопка для ввода числа 9 -->
+          <button class="operator orange" id="divide">/</button> <!-- Кнопка для операции деления -->
+          <button class="number" id="4">4</button> <!-- Кнопка для ввода числа 4 -->
+          <button class="number" id="5">5</button> <!-- Кнопка для ввода числа 5 -->
+          <button class="number" id="6">6</button> <!-- Кнопка для ввода числа 6 -->
+          <button class="operator orange" id="multiply">*</button> <!-- Кнопка для операции умножения -->
+          <button class="number" id="1">1</button> <!-- Кнопка для ввода числа 1 -->
+          <button class="number" id="2">2</button> <!-- Кнопка для ввода числа 2 -->
+          <button class="number" id="3">3</button> <!-- Кнопка для ввода числа 3 -->
+          <button class="operator orange" id="subtract">-</button> <!-- Кнопка для операции вычитания -->
+          <button class="number" id="0">0</button> <!-- Кнопка для ввода числа 0 -->
+          <button class="number" id="decimal">.</button> <!-- Кнопка для ввода десятичной точки -->
+          <button class="operator" id="equals">=</button> <!-- Кнопка для выполнения вычислений -->
+          <button class="operator orange" id="add">+</button> <!-- Кнопка для операции сложения -->
+        </div>
+      </div>
+      <script src="scripts.js"></script> <!-- Подключение внешнего файла скриптов -->
+    </body>
+</html>
